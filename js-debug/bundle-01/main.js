@@ -12,7 +12,7 @@
 
 // ESERCIZIO 1
 // funzione che restituisce a console i numeri da 0 a 4
-// i va associato a una variabile
+
 let a= "";
 for (let i = 0; i < 5; i++) {
     a = i;
@@ -30,7 +30,7 @@ for (let i = 0; i < 5; i++) {
 //    num / 2 = 0 è un errore bisogna usare ===
 function addIfEven(num) {
     if (!num % 2 === 0) {
-        return num + 1;
+        return num + 5;
     }
     return num;
 }
